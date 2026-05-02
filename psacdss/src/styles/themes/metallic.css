@@ -1,0 +1,37 @@
+/* src/styles/themes/metallic.css */
+:root {
+  /* Colors */
+  --bg-dark: #020617;
+  --bg-darker: #00020a;
+  --bg-panel: #0f172a;
+  
+  --text-main: #e2e8f0;
+  --text-muted: #94a3b8;
+  
+  --accent-cyan: #00f5ff; /* Requested Neon Cyan */
+  --accent-blue: #3b82f6;
+  
+  /* Status Colors */
+  --color-safe: #10b981; /* Green */
+  --color-warning: #f59e0b; /* Yellow */
+  --color-critical: #ef4444; /* Red */
+  
+  /* Metallic Gradients */
+  --metal-base: linear-gradient(135deg, #475569 0%, #1e293b 50%, #0f172a 100%);
+  --metal-highlight: linear-gradient(135deg, #cbd5e1 0%, #94a3b8 50%, #475569 100%);
+  --metal-button: linear-gradient(180deg, #334155 0%, #1e293b 100%);
+  --metal-button-hover: linear-gradient(180deg, #475569 0%, #334155 100%);
+  
+  /* Shadows & Glows */
+  --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-metal: inset 0 1px 1px rgba(255, 255, 255, 0.15), inset 0 -1px 1px rgba(0, 0, 0, 0.5);
+  
+  --glow-cyan: 0 0 15px rgba(0, 245, 255, 0.4);
+  --glow-safe: 0 0 15px rgba(16, 185, 129, 0.4);
+  --glow-warning: 0 0 15px rgba(245, 158, 11, 0.4);
+  --glow-critical: 0 0 15px rgba(239, 68, 68, 0.6);
+  
+  /* Glassmorphism */
+  --glass-bg: rgba(15, 23, 42, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
